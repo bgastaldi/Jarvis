@@ -32,12 +32,12 @@ function action($update = array()) {
     if (isset($return['data']['lamp'])) {
 
         if($update['result']['parameters']['acao'] == 'status'){
-            $status = ($return['data']['lamp'] == true) ? "LIGADA" : "DESLIGADA";
+            $status = ($return['data']['lamp'] == "true") ? "LIGADA" : "DESLIGADA";
             $speech = "A lâmpada está {$status} nesse momento";
         }else if($update['result']['parameters']['acao'] == 'turn-on'){
-            $speech = ($return['data']['lamp'] == true) ? "Okay, acabei de ligar a lampada." : "Oops, não consegui ligar a lâmpada.";
+            $speech = ($return['data']['lamp'] == "true") ? "Okay, acabei de ligar a lampada." : "Oops, não consegui ligar a lâmpada.";
         }else if($update['result']['parameters']['acao'] == 'turn-off'){
-            $speech = ($return['data']['lamp'] == false) ? "Okay, acabei de desligar a lampada." : "Oops, não consegui desligar a lâmpada.";
+            $speech = ($return['data']['lamp'] == "false") ? "Okay, acabei de desligar a lampada." : "Oops, não consegui desligar a lâmpada.";
          }
 
         $message[] = array(
