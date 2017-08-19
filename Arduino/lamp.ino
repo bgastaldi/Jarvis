@@ -29,9 +29,11 @@ void setup() {
   Serial.begin(9600);
   
   /*
-     RELAY
+     CONFIGURA O RELAY
+     INICIA A LAMPADA APAGADA
   */
   pinMode(relaySensor, OUTPUT);
+  digitalWrite(relaySensor, HIGH);
 
 }
 
@@ -39,6 +41,7 @@ void loop() {
   /*
      TENTA PEGAR A CONEXAO COM O NAVEGADOR
   */
+  
   EthernetClient client = server.available();
 
   /*
@@ -88,16 +91,16 @@ void loop() {
              (CONCATENADO)
           */
           if (todo == "LAMP_STS") {
-            String s = (digitalRead(relaySensor) == HIGH) ? "true" : "false";
+            String s = (digitalRead(relaySensor) == LOW) ? "true" : "false";
             String p = "{\"data\": {\"lamp\": \""; p += s; p += "\"}}";
             client.println(p);
           } else if (todo == "LAMP_ON") {
-            digitalWrite(relaySensor, HIGH);
+            digitalWrite(relaySensor, LOW);
             String s =  "true";
             String p = "{\"data\": {\"lamp\": \""; p += s; p += "\"}}";
             client.println(p);
           } else if (todo == "LAMP_OFF") {
-            digitalWrite(relaySensor, LOW);
+            digitalWrite(relaySensor, HIGH);
             String s =  "false";
             String p = "{\"data\": {\"lamp\": \""; p += s; p += "\"}}";
             client.println(p);
