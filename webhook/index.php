@@ -36,13 +36,13 @@ function action($update = array()) {
             $speech = "A lâmpada está {$status} nesse momento";
         }else if($update['result']['parameters']['acao'] == 'turn-on'){
             $speech = ($return['data']['lamp'] == true) ? "Okay, acabei de ligar a lampada." : "Oops, não consegui ligar a lâmpada.";
-        }else if($update['result']['parameters']['acao'] == 'turn-on'){
+        }else if($update['result']['parameters']['acao'] == 'turn-off'){
             $speech = ($return['data']['lamp'] == false) ? "Okay, acabei de desligar a lampada." : "Oops, não consegui desligar a lâmpada.";
          }
 
         $message[] = array(
             'type' => 0,
-            'speech' => $speech;
+            'speech' => $speech
         );
 
     } else {
