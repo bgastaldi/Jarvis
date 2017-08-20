@@ -1,0 +1,46 @@
+{
+  "id": "6c5008fc-1763-49f4-a712-7aefe8418bc6",
+  "name": "acao",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "turn-on",
+      "synonyms": [
+        "ligar",
+        "liga",
+        "on",
+        "ativar",
+        "acionar",
+        "turn-on"
+      ]
+    },
+    {
+      "value": "turn-off",
+      "synonyms": [
+        "off",
+        "desligar",
+        "delisga",
+        "desativar",
+        "desacionar",
+        "turn-off"
+      ]
+    },
+    {
+      "value": "status",
+      "synonyms": [
+        "status",
+        "estado",
+        "situação",
+        "posição",
+        "ligada",
+        "ativada",
+        "desligada",
+        "desativada",
+        "acionado",
+        "desacionada"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
