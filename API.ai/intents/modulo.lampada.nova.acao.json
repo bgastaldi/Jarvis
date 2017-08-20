@@ -1,0 +1,158 @@
+{
+  "userSays": [
+    {
+      "id": "617b69e8-7fce-4c1d-873b-465aa0067e71",
+      "data": [
+        {
+          "text": "claro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6227d933-ef86-40d5-823d-3388fa339b71",
+      "data": [
+        {
+          "text": "é claro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "418e4971-3ab8-4b0e-9273-44ae18eb11b5",
+      "data": [
+        {
+          "text": "s"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "166c0ce8-0660-4218-836d-c1426797d3d1",
+      "data": [
+        {
+          "text": "sim"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a93d53e9-d34b-4aff-a88a-e9996db28dab",
+      "data": [
+        {
+          "text": "com certeza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e16a01f0-ea76-40cc-91ae-2a3a0415a8c3",
+      "data": [
+        {
+          "text": "vamos lá"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fa4fd11-79b9-416e-ad50-0207753571e9",
+      "data": [
+        {
+          "text": "quero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba45ea60-4c09-4b23-b87c-8b35826cd56d",
+      "data": [
+        {
+          "text": "eu quero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5856c839-08f2-409c-9d10-ca1090737564",
+      "data": [
+        {
+          "text": "gostaria sim"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "016de0ba-7e30-4c86-be7a-2dd11ea9728a",
+      "data": [
+        {
+          "text": "eu gostaria"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fd0890e-84a0-46b1-ae83-367353fbeff9",
+      "data": [
+        {
+          "text": "gostaria"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26196a4b-0a53-483e-9a90-d893adc0e1f2",
+      "data": [
+        {
+          "text": "queria"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9b847267-de1a-443d-a337-dece9efcec18",
+  "name": "modulo.lampada.nova.acao",
+  "auto": true,
+  "contexts": [
+    "ctx-lampada"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx-lampada",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "O que deseja fazer? Consultar o estado, ligar ou desligar a lâmpada?",
+            "Certo! Você deseja consultar o estado, ligar ou desligar a lâmpada?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

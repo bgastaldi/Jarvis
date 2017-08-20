@@ -1,0 +1,178 @@
+{
+  "userSays": [
+    {
+      "id": "81e1e3dd-d9af-4c2f-bfde-69a8c350c7ab",
+      "data": [
+        {
+          "text": "não obrigado"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "515485f6-cda0-455a-b58a-bad2eaa3679f",
+      "data": [
+        {
+          "text": "não quero"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98f2495f-1f36-40b5-a3ab-818f0bb818d5",
+      "data": [
+        {
+          "text": "só isso"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf911497-f2dd-4740-b1a8-35c78ff1500f",
+      "data": [
+        {
+          "text": "cancele"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78ac6839-59aa-4faf-87ae-8b87c8d4bc34",
+      "data": [
+        {
+          "text": "cancelar"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9943db99-f4bb-4c6e-bfb1-84dfe889e3dd",
+      "data": [
+        {
+          "text": "sair"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb69c7d3-aff2-4b2c-b73c-223630b0b76a",
+      "data": [
+        {
+          "text": "obrigado"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cdc9466-7b5c-481b-8e5a-b0517a295397",
+      "data": [
+        {
+          "text": "nao"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0a7bdb4-25cc-4231-9743-b2019d416ad0",
+      "data": [
+        {
+          "text": "não"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a4f5c2b-cc2f-4daf-b63e-9523e8158851",
+      "data": [
+        {
+          "text": "hoje",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " não"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfcc20f0-1ad0-4736-a2dd-665ce44309f5",
+      "data": [
+        {
+          "text": "nop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd0f6aa7-099c-4412-8908-3d080acad6b8",
+      "data": [
+        {
+          "text": "não vlw"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a42f8cad-60aa-448a-b8f8-6fe47f5e464e",
+      "data": [
+        {
+          "text": "n"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8e2fdfc-a5bd-4da1-a2c4-d33c7872142e",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2833f1d5-5d5a-47c7-8ebb-1e66a17a8c25",
+  "name": "modulo.lampada.cancelar",
+  "auto": true,
+  "contexts": [
+    "ctx-lampada"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Tranquilo. Caso precise de mais alguma coisa me chame.",
+            "Certo. Se precisar da minha ajuda para mais alguma coisa é só me chamar.",
+            "Tudo bem! Se precisar de mais alguma coisa me avise."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

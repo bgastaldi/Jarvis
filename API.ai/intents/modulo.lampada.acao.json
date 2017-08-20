@@ -1,0 +1,55 @@
+{
+  "userSays": [
+    {
+      "id": "bbb118b9-83e6-4a7f-bc64-4dc5bff0338f",
+      "data": [
+        {
+          "text": "@acao:acao"
+        }
+      ],
+      "isTemplate": true,
+      "count": 0
+    }
+  ],
+  "id": "aaeefe7b-b30f-4c94-af98-c954b1295415",
+  "name": "modulo.lampada.acao",
+  "auto": true,
+  "contexts": [
+    "ctx-lampada"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "lamp",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@acao",
+          "name": "acao",
+          "value": "$acao",
+          "prompts": [
+            "Gostaria de saber se você quer LIGAR ou DESLIGAR a lâmpada?",
+            "O que deseja fazer? LIGAR ou DESLIGAR?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Desculpe, não consegui $acao.original . Tente novamente mais tarde.",
+            "Desculpe, não consegui realizar a ação. Vamos tentar mais tarde."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

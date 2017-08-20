@@ -1,0 +1,38 @@
+{
+  "userSays": [],
+  "id": "1f145544-e729-4af3-87de-cfc10d7d3d6d",
+  "name": "modulo.lampada - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx-lampada"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx-lampada",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Por favor, me diga o que gostaria de fazer: ligar, desligar ou consultar seu estado ?",
+            "Você deseja consultar o estado, ligar ou desligar a lâmpada?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}
